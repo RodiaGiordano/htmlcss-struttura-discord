@@ -13,18 +13,34 @@ header{
 }
 
 .container{
-    background-color: orange;
     width: 60%;
+    min-width: 500px;
     margin: auto;
     
 }
 
 .col{
-    background-color: blue;
+    background: orange;
+    border: 2px dashed black;
+    padding: 5px;
+}
 
-    height: 50px;
+
+.col.logo, .col.login{
+    width: 25%;    
+}
+
+.col.link{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.login{
+    text-align: end;
 }
 
 .flex{
-    flex-direction: row;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
