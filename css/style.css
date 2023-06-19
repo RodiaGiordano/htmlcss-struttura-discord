@@ -66,27 +66,36 @@ header{
 
 /* MAIN */
 
-
-.box-alone{
+.box{
     margin: 35px 0;
-    background-color: fuchsia;
     border: 1px solid black;
     height: 200px;
+}
+
+.box.alone{
+    background-color: fuchsia;
     width: 350px;
 }
 
-.box-one{
-    margin: 35px 0;
+.box.one{
     background-color: aqua;
-    border: 1px solid black;
     height: 200px;
     width: 50%;
 }
 
-.box-two{
-    margin: 35px 0;
+.box.two{
     background-color: pink;
-    border: 1px solid black;
     height: 200px;
     width: 30%;
 }
+
+.box-big{
+    margin: 35px 0;
+    border: 1px solid black;
+    width: 80%;
+    height: 350px;
+    background-color: green;
+}
+
+/* FOOTER */
+
