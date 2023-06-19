@@ -15,9 +15,7 @@
 
 .flex{
     display:flex;
-    align-items: center;
     justify-content: center;
-    
 }
 
 
@@ -26,11 +24,15 @@
 }
 
 .bg-grey{
-    background-color: grey;
+    background-color: lightgrey;
 }
 
 .bg-wsmoke{
     background-color: whitesmoke;
+}
+
+.bg-black{
+    background-color: black;
 }
 
 /* NAV */
@@ -68,34 +70,55 @@ header{
 
 .box{
     margin: 35px 0;
-    border: 1px solid black;
+    border: 1px dashed black;
     height: 200px;
 }
 
 .box.alone{
     background-color: fuchsia;
-    width: 350px;
+    width: 400px;
 }
 
 .box.one{
     background-color: aqua;
     height: 200px;
-    width: 50%;
+    width: 300px;
 }
 
 .box.two{
     background-color: pink;
     height: 200px;
-    width: 30%;
+    width: 150px
 }
 
 .box-big{
     margin: 35px 0;
-    border: 1px solid black;
-    width: 80%;
+    border: 1px dashed black;
+    width: 450px;
     height: 350px;
     background-color: green;
 }
 
 /* FOOTER */
 
+.one-two{
+    background-color: pink;
+    border: 1px dashed black;
+    width: 150px;
+ 
+}
+
+.two-two{
+    background-color: rgb(30, 162, 118);
+    border: 1px dashed black;
+
+    width: 300px;
+}
+
+
+
+.f-col{
+    border: 1px dashed white;
+    width: calc(100% / 4);
+    height: 100%;
+}
