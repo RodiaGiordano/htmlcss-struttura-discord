@@ -5,6 +5,29 @@
 }
 
 
+/* UTILITY */
+.container{
+    width: 60%;
+    min-width: 500px;
+    margin: auto;
+    
+    
+}
+
+.flex{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.color-blue{
+    background-color: blue;
+}
+
+/* NAV */
+
 
 /* HEADER */
 
@@ -12,17 +35,11 @@ header{
     background-color: aqua;
 }
 
-.container{
-    width: 60%;
-    min-width: 500px;
-    margin: auto;
-    
-}
-
 .col{
-    background: orange;
+    background: goldenrod;
     border: 2px dashed black;
-    padding: 5px;
+    padding: 10px 5px;
+    margin: 10px 0;
 }
 
 
@@ -39,8 +56,12 @@ header{
     text-align: end;
 }
 
-.flex{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+/* MAIN */
+
+.box-alone{
+    margin: 35px 0;
+    background-color: fuchsia;
+    height: 200px;
+    width: 350px;
 }
+
