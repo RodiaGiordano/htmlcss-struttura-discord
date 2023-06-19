@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* HEADER */
+
+header{
+    background-color: aqua;
+}
+
+.container{
+    background-color: orange;
+    width: 60%;
+    margin: auto;
+    
+}
+
+.col{
+    background-color: blue;
+
+    height: 50px;
+}
+
+.flex{
+    flex-direction: row;
+}
