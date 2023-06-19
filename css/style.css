@@ -21,11 +21,17 @@
 }
 
 
-.color-blue{
+.bg-blue{
     background-color: blue;
 }
 
+.bg-grey{
+    background-color: grey;
+}
 
+.bg-wsmoke{
+    background-color: whitesmoke;
+}
 
 /* NAV */
 
