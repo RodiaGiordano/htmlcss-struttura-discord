@@ -35,7 +35,7 @@
     background-color: black;
 }
 
-/* NAV */
+
 
 
 
@@ -121,4 +121,26 @@ header{
     border: 1px dashed white;
     width: calc(100% / 4);
     height: 100%;
+}
+
+.f-first{
+    border-bottom: 2px solid salmon;
+    
+} 
+
+.f-button{
+    padding: 0 10px;
+    border: 1px dashed black;
+}   
+
+.extreme-footer{
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 450px;
+    background-color: aquamarine;
+
+}
+
+.margin-f{
+    padding-top: 20px;
 }
