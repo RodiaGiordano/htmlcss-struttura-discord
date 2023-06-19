@@ -9,8 +9,7 @@
 .container{
     width: 60%;
     min-width: 500px;
-    margin: auto;
-    
+    margin: auto;   
     
 }
 
@@ -26,7 +25,10 @@
     background-color: blue;
 }
 
+
+
 /* NAV */
+
 
 
 /* HEADER */
@@ -58,10 +60,27 @@ header{
 
 /* MAIN */
 
+
 .box-alone{
     margin: 35px 0;
     background-color: fuchsia;
+    border: 1px solid black;
     height: 200px;
     width: 350px;
 }
 
+.box-one{
+    margin: 35px 0;
+    background-color: aqua;
+    border: 1px solid black;
+    height: 200px;
+    width: 50%;
+}
+
+.box-two{
+    margin: 35px 0;
+    background-color: pink;
+    border: 1px solid black;
+    height: 200px;
+    width: 30%;
+}
